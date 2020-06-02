@@ -1,0 +1,50 @@
+.container-films {
+    
+    
+    .banner {
+        margin: 0 auto;
+        height: 500px;
+        background-color: $color-4;
+        background: url("https://img.ibxk.com.br/2019/04/25/25094601040028.jpg");
+        background-size: cover;   
+        cursor: pointer;            
+        
+        img {
+            
+        }
+    }
+
+    .info {
+        background-color: $color-2;
+        padding-bottom: 0;
+        // display: flex;
+        height: 0; //270px
+	    overflow: hidden;
+        transition: height 0.8s;
+        
+        .setorA, .setorB {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            // padding: 15px 20px;
+            h2, p {
+                margin: 15px 20px;
+            }
+        }
+
+        .setorB {
+
+        }
+        
+        .setorC {
+            padding-bottom: 5px;
+            h2, p {
+                margin: 15px 20px;
+            } 
+        }
+    }
+
+    .show {
+        height: 200px;
+    }
+}
